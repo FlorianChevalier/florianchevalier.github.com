@@ -2,6 +2,6 @@ body{
 background-color:purple;
 color:orange;
 }
-#lifegoals:hover::after{
+#lifegoals:hover {
   color:red;
     text-size:50px;}
