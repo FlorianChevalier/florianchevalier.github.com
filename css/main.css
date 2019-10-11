@@ -7,7 +7,7 @@ color:orange;
     text-size:50px;}
 h3:hover{
   color:red;}
-p::hover {
+p:hover {
   color: #ff0000;
   font-variant: small-caps;
 }
