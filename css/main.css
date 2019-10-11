@@ -1,24 +1,24 @@
 #seong:hover::after{
-    background-color:red;
+    background-color: red;
     content:"Pick ME";
 }
 #seong:active::after{
-    background-color:red;
+    background-color: red;
     content:"Pick ME";
 }
 #andile:hover::after{
-    background-color:red;
+    background-color: red;
     content:"Pick ME";
 }
 #andile:active::after{
-    background-color:red;
+    background-color: red;
     content:"Pick ME";
 }
 #shakti:hover::after{
-    background-color:red;
+    background-color: red;
     content:"Pick ME";
 }
 #shakti:active::after{
-    background-color:red;
+    background-color: red;
     content:"Pick ME";
 }
