@@ -8,3 +8,7 @@ p:hover {
   color:red;
   font-variant: small-caps;
 }
+#seong:hover::after{
+    background-color:red;
+    content:"Pick ME";
+}
