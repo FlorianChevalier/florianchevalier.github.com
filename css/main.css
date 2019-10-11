@@ -2,6 +2,6 @@ body{
 background-color:purple;
 color:orange;
 }
-.YEET:hover::after{
+#lifegoals:hover::after{
   color:red;
-    text-size:500px;}
+    text-size:50px;}
