@@ -3,7 +3,7 @@ body{
     color:blue;
 background-color:pink
 }
-h3 a:hover{
+a:hover{
     color:orange;
 font-size:50px}
 h1 a:active{
@@ -30,8 +30,8 @@ text-align:center;
 }
 h4:hover{
     color:red;
-    text-size:50px;
+    font-size:50px;
 }
 h3:active{
-    text-size:150px;
+    font-size:150px;
     color:red;}
