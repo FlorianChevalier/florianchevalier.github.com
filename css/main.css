@@ -6,7 +6,7 @@ background-color:pink
 a:hover{
     color:orange;
 font-size:50px}
-h1 a:active{
+h1:active{
 color:orange;
     font-size:100px;}
 .bullet{
