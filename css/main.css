@@ -23,3 +23,9 @@ h4:hover{
 h3:active{
     font-size:150px;
     color:red;}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
