@@ -9,5 +9,5 @@ document.write("Square loop <br/>");
 var p;
 for(p= 2; p<10; p++){
   var ans = Math.sqrt(p);
-  document.write("the square is:" + ans + "<br />");
+  document.write("the square is:" + ans + "<br/>");
 }
