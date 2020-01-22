@@ -13,7 +13,9 @@ for(p= 2; p<10; p++){
 }
 function myLoop(){
 var end = document.getElementById("end").value;
-for(var i =0;i <= end; i++)
+  var start = document.getElementById("start").value;
+for(var i =start;i <= end; i++)
   {
     document.write('</p>' + i + '</p>');
   }
+}
