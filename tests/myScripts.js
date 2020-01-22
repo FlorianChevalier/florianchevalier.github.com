@@ -11,3 +11,9 @@ for(p= 2; p<10; p++){
   var ans = Math.sqrt(p);
   document.write("the square is:" + ans + "<br/>");
 }
+function myLoop(){
+var end = document.getElementById("end").value;
+for(var i =0;i <= end; i++)
+  {
+    document.write('</p>' + i + '</p>');
+  }
