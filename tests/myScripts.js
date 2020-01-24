@@ -11,11 +11,23 @@ for(p= 2; p<10; p++){
   var ans = Math.sqrt(p);
   document.write("the square is:" + ans + "<br/>");
 }
-function myLoop(){
-var end = document.getElementById("end").value;
-  var start = document.getElementById("start").value;
-for(var i =start;i <= end; i++)
-  {
-    document.write('</p>' + i + '</p>');
-  }
+
+function myFunction() {
+
+var start = document.getElementById("start").value;
+var end= document.getElementById("end").value;
+var jump= document.getElementById("jump").value;
+jump = Number(jump);
+start = Number(start);
+end = Number(end);
+console.log(typeof jump);
+console.log(typeof start);  
+console.log(typeof end);
+  for (var i = start; i <= end; i+=jump) {
+    
+    
+    document.write( '<p>' + i + '</p>');
+  // document.write(jump);
+  // console.log(i);
+}
 }
